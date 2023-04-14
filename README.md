@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+===========================================================================================================================
+Trading App UI part View:
+<img width="941" alt="trade" src="https://user-images.githubusercontent.com/84613580/232074771-9863c58c-78ee-48de-8d15-6acf38378715.PNG">
+
+In this app we can change bitcoin image , price value many more thing we can modify.
+
+Code looks like:
+
+
+
+<img width="938" alt="trade-code" src="https://user-images.githubusercontent.com/84613580/232075122-5e8b406d-7894-4c7d-8d1c-ba6133b4e88e.PNG">
