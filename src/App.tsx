@@ -1,5 +1,5 @@
 import "./App.css";
-import Shared from "./components/Shared";
+import Shared from "./components/shared/Shared";
 import BitcoinSV1 from "./assets/images/BitcoinSV1.png";
 import Solana from "./assets/images/Solana.png";
 import EthereumETH from "./assets/images/Ethereum(ETH).png";

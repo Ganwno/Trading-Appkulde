@@ -1,13 +1,11 @@
 import React from 'react'
 import './Circle.css';
-// import BitcoinSV1 from '../assets/images/BitcoinSV1.png';
-
-const Circle = (p:any) => {
+const Circle = (props:any) => {
   return (
-    <div className='outerRadius'>
-        <img src={p.img} className='circular'/>
+    <div className='coin-image'>
+        <img src={props.img} className='circular'/>
     </div>
   )
 }
 
-export default Circle
+export default Circle;

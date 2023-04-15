@@ -1,6 +1,6 @@
 import React from "react";
-import Circle from "./Circle";
-import Card from "./Card";
+import Circle from "../Circle";
+import Card from "../Card";
 import './Shared.css';
 
 const Shared = (props:any) => {

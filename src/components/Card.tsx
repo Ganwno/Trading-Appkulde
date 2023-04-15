@@ -2,30 +2,30 @@ import React from "react";
 import "./Card.css";
 
 
-const Card = (p: any) => {
+const Card = (props : any) => {
   return (
     <div className="card">
-      <div className="icon"></div>
+      <div className="coin-icon"></div>
       <div>
-        <p className="para1">{p.name}</p>
-        <div className="input1">
-          {p.price}
-          <p className="green">{p.upDown}</p>
+        <p>{props.name}</p>
+        <div className="price">
+          {props.price}
+          <p className="inc-dec">{props.upDown}</p>
         </div>
       </div>
       <div>
-        <p className="para2">Price</p>
-        <div className="input2">{p.tvl}</div>
+        <p>Price</p>
+        <div className="tvl">{props.tvl}</div>
       </div>
       <div>
-        <p className="para3">TVL</p>
-        <div className="input3">
-          <img src={p.src1} />
-          <img src={p.src2} />
-          <img src={p.src3} />
+        <p>TVL</p>
+        <div className="popular-pairs">
+          <img src={props.src1} alt="coin"/>
+          <img src={props.src2} alt="coin"/>
+          <img src={props.src3} alt="coin"/>
         </div>
       </div>
-      <p className="para4">Popular pairs</p>
+      <p>Popular pairs</p>
     </div>
   );
 };

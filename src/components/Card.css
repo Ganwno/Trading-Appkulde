@@ -1,21 +1,18 @@
 .card {
-  box-sizing: border-box;
   width: 290.74px;
   height: 350.08px;
-
   background: linear-gradient(
     180deg,
     rgba(98, 106, 136, 0.1) 0%,
     rgba(46, 49, 73, 0.1) 107.43%
   );
-  backdrop-filter: blur(50px);
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 26px;
 }
 
-.icon {
+.coin-icon {
   position: relative;
   width: 140px;
   height: 120px;
@@ -24,7 +21,7 @@
   border-bottom-left-radius: 100px;
 }
 
-.icon::before {
+.coin-icon::before {
   content: "";
   position: absolute;
   top: 0;
@@ -35,7 +32,7 @@
   border-top-right-radius: 50px;
   box-shadow: 15px -15px 0 15px #14172b;
 }
-.icon::after {
+.coin-icon::after {
   content: "";
   position: absolute;
   top: 0;
@@ -49,41 +46,22 @@
 
 p {
   margin: 0;
-}
-
-.para1,
-.para2,
-.para3,
-.para4 {
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 31px;
-  /* identical to box height, or 258% */
-
   text-align: center;
-
   color: #737bae;
-
-  opacity: 0.9;
-  margin: 0;
+  opacity: 1;
 }
 
-.para1 {
-  /* margin-top: 71px; */
-}
 
-.input1,
-.input2,
-.input3 {
-  box-sizing: border-box;
-
-  /* position: absolute; */
+.price,
+.tvl,
+.popular-pairs {
   width: 242px;
   height: 40px;
-  /* left: 21px;
-  top: 160px; */
   color: white;
   background: #14172b;
   border-radius: 17px;
@@ -92,22 +70,21 @@ p {
   align-items: center;
 }
 
-.input1 {
+.price {
   margin-top: 8px;
 }
-.input2 {
+.tvl {
   margin-top: 4px;
 }
-.input3 {
+.popular-pairs {
   margin-top: 12px;
-  /* position: absolute; */
   width: 121.75px;
   height: 40px;
   background: #14172b;
   border-radius: 29.5px;
   justify-content: space-around;
 }
-.green {
+.inc-dec{
   width: 62.58px;
   height: 31px;
   font-family: "Tomorrow";
@@ -115,11 +92,7 @@ p {
   font-weight: 600;
   font-size: 12px;
   line-height: 31px;
-  /* identical to box height, or 258% */
-
   text-transform: uppercase;
-
   color: #00ffa3;
-
-  opacity: 0.9;
+  opacity: 1;
 }
