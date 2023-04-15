@@ -1,19 +1,13 @@
 .App {
   text-align: center;
-  /* background-color: #626A88; */
   background: #14172B;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   height: auto;
-  /* overflow-x: auto; */
   flex-wrap: wrap;
   padding-bottom: 205px;
 }
 
 
-.App>.ball {
-  /* margin-left: 50%; */
-  /* margin-top: 200px; */
-}
 
